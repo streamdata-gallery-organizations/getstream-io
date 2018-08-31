@@ -1,9 +1,14 @@
+---
 swagger: "2.0"
 x-collection-name: GetStream.io
-x-complete: 1
+x-complete: 0
 info:
-  title: Stream API
-  description: -how-to-use-this-collection1--install-the-collection-done2--check-the-general-prerequisites-section-below-for-basic-setup-3--review-the-request-folders-and-select-a-request-to-send------review-the-request-description-to-check-for-any-required-parameters-andor-request-specific-prerequisites-4--run-the-request--general-prerequisites--create-an-app-at-stream--set-postman-environment-variables-for-connectivity-and-authentication-stream-app-location-stream-api-key-stream-api-secret-collection-overview--get-started-requests-used-in-streams-getting-started-tutorial---rest-api-endpoints-examples-of-the-documented-api-endpointshttpsgetstream-iodocs-rest-
+  title: Stream API Follow multiple feeds
+  description: |-
+    Add an Activity to multiple feeds.
+
+    # Body fields:
+     - An array of following relationships represented with source/target feeds
   version: 1.0.0
 host: eu-central-api.stream-io-api.com
 basePath: /api/v1.0
@@ -447,3 +452,17 @@ paths:
       tags:
       - Follow
       - Many
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

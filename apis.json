@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - GetStream.io",
+	"description": "This is a repository of getstream.io APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/getstream-io.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://getstream-io.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "GetStream.io",
+			"x-api-slug": "getstream-io",
+			"description": "Scalable & Fast API for building social networks, activity feeds, news feeds and activity streams.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26600-getstream-io.jpg",
+			"humanURL": "https://getstream.io",
+			"baseURL": "https://eu-central-api.stream-io-api.com//api/v1.0",
+			"tags": "GetStream.io",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/getstream-io/master/_listings/getstream-io/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "GetStream.io",
+	"include": [
+		{
+			"name": "GetStream.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/getstream-io/master/_listings/getstream-io/apis.yaml"
+		}
+	]
+}
